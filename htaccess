@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^resume$ /resource.php?q=resume [L] 
+RewriteRule ^LFS101x2$ /resource.php?q=LFS101x2 [L]
+RewriteRule ^quora$ /resource.php?q=quora [L]
+RewriteRule ^twitter$ /resource.php?q=twitter [L]
+RewriteRule ^linkedin$ /resource.php?q=linkedin [L]
+RewriteRule ^github$ /resource.php?q=github [L]
+RewriteRule ^github-repo$ /resource.php?q=github-repo [L]
+RewriteRule ^mail$ /resource.php?q=mail [L]
+RewriteRule ^zomato$ /resource.php?q=zomato [L]
